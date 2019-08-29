@@ -25,7 +25,6 @@ class AutoPause {
     }
     handleVisibilityChange(){
         const isvisible = document.visibilityState === "visible"
-        console.log(isvisible)
         if(isvisible){
             this.player.play()
         } else {
