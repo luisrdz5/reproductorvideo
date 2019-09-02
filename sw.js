@@ -22,13 +22,13 @@ async function precache() {
     const cache = await caches.open(VERSION)
     return cache.addAll([
         '/',
-        '/index.html',
-        '/assets/index.js',
-        '/assets/MediaPlayer.js',
-        '/assets/plugins/Autoplay.js',
-        '/assets/plugins/AutoPause.js',
-        '/assets/index.css',
-        '/assets/gears5.mp4',
+        // '/index.html',
+        // '/assets/index.js',
+        // '/assets/MediaPlayer.js',
+        // '/assets/plugins/Autoplay.js',
+        // '/assets/plugins/AutoPause.js',
+        // '/assets/index.css',
+        // '/assets/gears5.mp4',
     ])
 }
 async function cachedResponse (request){

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisrdz5/reproductorvideo.git"
@@ -17,9 +16,14 @@
   "homepage": "https://github.com/luisrdz5/reproductorvideo#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.2"
+  },
+  "browserlist": [
+    "last 1 Chrome version"
+  ]
 }
